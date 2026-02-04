@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Tokens et credentials sensibles - JAMAIS sur GitHub
+tools/gmail-token*.json
+tools/gmail-credentials.json
+.git-credentials
+QUICKREF.md
+tools/qonto_api.json
+tools/crm_auth.json
+memory/infra/gmail-oauth2-credentials.md
+memory/infra/gmail-oscar-cookies.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local repos clonés (on les gère séparément)
+repos/
+
+# Fichiers avec tokens embarqués
+memory/2026-02-03.md
