@@ -121,7 +121,21 @@ Doc complet : `/memory/projects/vision-oscar-associes.md`
 - Python + tkinter + psutil
 - Démarrage auto via oscar_startup.ps1
 
+## Oscar Dashboard (déployé 04/02/2026)
+- **URL** : https://oscar.coachdigitalparis.com
+- **GitHub** : github.com/eddigit/oscar-dashboard
+- **Vercel Project** : oscar-dashboard
+- Interface chat moderne Next.js/React
+- Prêt pour connexion au backend OpenClaw
+
+## Fork OpenClaw
+- **Repo** : github.com/eddigit/openclaw
+- Fork du projet officiel openclaw/openclaw
+- Licence MIT - libre de modifier/redistribuer
+- Base pour créer nos propres agents
+
 ## À améliorer
+- Connecter le dashboard au backend OpenClaw (API)
+- Créer agents spécialisés (commercial, admin)
 - Explorer les services svchost pour réduire la RAM Windows
-- Regarder si on peut optimiser la consommation WSL/OpenClaw
 - Documenter le setup complet de Gilles pour pouvoir le reconstruire si besoin
